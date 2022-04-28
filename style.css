@@ -1,8 +1,3 @@
-body {
-    box-sizing: border-box ;
-    padding: 0;
-    margin: 0;
-}
 
 #barra_nav {
     background-color: rgba(30, 24, 194, 0.914);
@@ -16,9 +11,10 @@ body {
     position: relative;
     top: 5px ;
 }
+
 #logo_AP {
     width: 120px;
-    height: 40cx;
+    height: 40px;
 }
 
 .logo_RRSS {
@@ -34,8 +30,10 @@ body {
     }
 
 #banner {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 10px;
 }
 
 #foto_perfil {
@@ -45,4 +43,22 @@ body {
     position: relative;
     top: -125px;
     margin-bottom: -125px;
+}
+
+#tarjeta_5 h6 {
+    margin-top: 5px;
+    margin-left: 50%;
+}
+
+.progress {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.tarjeta {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px solid #B3C6FF;
+    border-radius: 10px;
 }
